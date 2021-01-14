@@ -4,8 +4,8 @@ Library  SeleniumLibrary
 *** Variables ***
 
 *** Test Cases ***
-LoginTest
+SearchTest
     open browser    https://bing.com/   chrome
     close browser
-    
+
 *** Keywords ***

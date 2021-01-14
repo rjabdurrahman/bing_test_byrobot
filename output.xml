@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210114 13:54:28.074" rpa="false">
+<robot generator="Robot 3.2.2 (Python 3.9.1 on win32)" generated="20210114 14:19:02.642" rpa="false">
 <suite id="s1" name="TC1" source="C:\Users\Abdur Rahman\Desktop\pytest\TC1.robot">
-<test id="s1-t1" name="LoginTest">
+<test id="s1-t1" name="SearchTest">
 <kw name="Open Browser" library="SeleniumLibrary">
 <doc>Opens a new browser instance to the optional ``url``.</doc>
 <arguments>
 <arg>https://bing.com/</arg>
 <arg>chrome</arg>
 </arguments>
-<msg timestamp="20210114 13:54:28.389" level="INFO">Opening browser 'chrome' to base url 'https://bing.com/'.</msg>
-<status status="PASS" starttime="20210114 13:54:28.389" endtime="20210114 13:55:36.874"></status>
+<msg timestamp="20210114 14:19:02.955" level="INFO">Opening browser 'chrome' to base url 'https://bing.com/'.</msg>
+<status status="PASS" starttime="20210114 14:19:02.955" endtime="20210114 14:19:10.064"></status>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20210114 13:55:36.875" endtime="20210114 13:55:38.987"></status>
+<status status="PASS" starttime="20210114 14:19:10.065" endtime="20210114 14:19:12.192"></status>
 </kw>
-<status status="PASS" starttime="20210114 13:54:28.389" endtime="20210114 13:55:38.988" critical="yes"></status>
+<status status="PASS" starttime="20210114 14:19:02.954" endtime="20210114 14:19:12.193" critical="yes"></status>
 </test>
-<status status="PASS" starttime="20210114 13:54:28.076" endtime="20210114 13:55:38.990"></status>
+<status status="PASS" starttime="20210114 14:19:02.642" endtime="20210114 14:19:12.194"></status>
 </suite>
 <statistics>
 <total>
